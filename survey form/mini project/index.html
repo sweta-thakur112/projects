@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form by sweta thakur</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="wrapper">
+            <div class="header">
+                <h1 id="title">SURVEY FORM</h1>
+                <p id="description">This is a survey form </p>
+            </div>
+          <hr><br>
+            <form id="survey-form" >
+                <div class="label-div">
+                    <p><label id="name-label"> Name :</label></p><br>
+                    <p><label id="email-label">Email : </label></p> <br>
+                    <p><label id="number-label">Age :</label></p><br>
+                    <p><label id="dropdown-label">Select Your Domain : </label></p><br>
+                    <p><label>Gender : </label></p><br>
+                    <p><label>What Are You Doing : </label></p><br>
+                    <p><label>Write Comments : </label></p> <br>
+                </div>
+
+                <div class="input-div">
+                    <p><input type="text" id="name" placeholder="Your Name"></p><br>
+                    <p><input type="email" id="email" placeholder="Your Email"></p><br>
+                    <p><input minlength="8" maxlength="65" type="number" id="number" placeholder="Your Age"></p><br>
+                    <p><select id="dropdown">
+                            <option value="">--Select--</option>
+                            <option value="">Web Developer</option>
+                            <option value="">Data Scientist</option>
+                            <option value="">Graphics Designer</option>
+                            <option value="">UI Designer</option>
+                            <option value="">Game Developer</option>
+                        </select></p><br>
+                    <p><input type="radio" name="male">Male
+                        <input type="radio" name="female"> Female</p>
+                    <br>
+
+                    <p><input type="checkbox" value="freelancing">Freelancing
+                        <input type="checkbox" value="job">Job</p>
+                    <br>
+                    <p><textarea cols="40" rows="10"></textarea></p><br>
+                </div>
+
+                <div class="btn-div">
+                    <button id="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
